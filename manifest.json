@@ -1,0 +1,14 @@
+{
+  "name": "Reddit Old Redirect",
+  "description": "Redirects old.reddit.com links to \"new\" Reddit 😈",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.reddit.com/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
